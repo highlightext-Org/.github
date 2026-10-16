@@ -118,3 +118,11 @@ Tools using the account owner's verification method, then submit
 `https://highlightext.com/sitemap.xml`. Check indexing reports and validate the
 homepage with Google's Rich Results Test. These account actions are separate
 from the repository changes. Keep HTTPS enforced in GitHub Pages settings.
+
+## Subscription plans
+
+The static homepage lists Advanced ($9 USD/month), Pro ($19 USD/month), and
+Publisher (enquiry only). Advanced and Pro link directly to hosted Stripe
+subscription checkout. Transactions are verified and access arranged after payment;
+this page does not automatically provision access. Publisher enquiries go to
+hi@highlightext.com. No Stripe API credentials are included in the website.
