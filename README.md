@@ -130,6 +130,7 @@ separately before access is arranged.
 
 The static homepage lists Advanced ($9 USD/month), Pro ($19 USD/month), and
 Publisher (enquiry only). Advanced and Pro link directly to hosted Stripe
-subscription checkout. Transactions are verified and access arranged after payment;
+subscription checkout. Advanced also offers crypto payment through a hosted Coinbase
+payment link alongside Stripe. Transactions are verified and access arranged after payment;
 this page does not automatically provision access. Publisher enquiries go to
 hi@highlightext.com. No Stripe API credentials are included in the website.
