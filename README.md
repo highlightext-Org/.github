@@ -99,3 +99,22 @@ JavaScript syntax, demo interactions, local links, fragment targets, unique IDs,
 and local HTTP responses were checked. The plain HTML page was checked for the
 absence of scripts, styles, and images. Visual browser and device-size verification
 remains outstanding because a browser was unavailable during authoring.
+
+## Search and sharing
+
+The production domain is `https://highlightext.com` (configured in `CNAME`).
+All three public HTML pages have unique titles and descriptions, canonical URLs,
+Open Graph and Twitter card metadata, and favicon links. The homepage includes
+Organization, WebSite, and WebPage JSON-LD; the request page includes WebPage
+JSON-LD. The agent page remains script-free.
+
+`robots.txt` permits crawling and points to `sitemap.xml`, which lists canonical
+public pages. When adding or removing pages, update the sitemap and page metadata.
+Social preview and icon assets live in `assets/`; `favicon.ico` is at the site root.
+Do not add fake ratings, unsupported product claims, or verification tokens.
+
+After deployment, verify the domain in Google Search Console and Bing Webmaster
+Tools using the account owner's verification method, then submit
+`https://highlightext.com/sitemap.xml`. Check indexing reports and validate the
+homepage with Google's Rich Results Test. These account actions are separate
+from the repository changes. Keep HTTPS enforced in GitHub Pages settings.
