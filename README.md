@@ -1,2 +1,99 @@
-# .github
-Highlighter, the most underrated tool in business. 
+# Highlightext
+
+**Highlight what matters. Faster.**
+
+Highlightext brings relevant words and phrases into focus so you can spot important
+information while reading, researching, and analyzing. A familiar idea—a
+highlighter—reimagined for digital work.
+
+## Explore the project
+
+- [Visual website](index.html): an animated, responsive introduction with an interactive keyword-highlighting demo.
+- [HTML for AI agents](agents.html): a plain semantic HTML summary with no JavaScript, CSS, images, or external dependencies.
+- [Highlighter repository](https://github.com/highlightext-Org/highlighter): the core project’s home.
+
+These links open source files in GitHub’s repository viewer. Download the HTML
+files to open them in a browser, or serve them locally using the instructions below.
+
+## What it is for
+
+Make the language relevant to your task easier to notice:
+
+| Work | Example reading focus |
+| --- | --- |
+| Research and financial analysis | Revenue, disclosures, growth, risk factors |
+| Contracts and compliance | Clauses, exclusions, renewal dates, requirements |
+| Marketing and communications | Brand names, competitor mentions, campaign approvals |
+| Recruiting and project operations | Role requirements, deliverables, dependencies, deadlines |
+| Academic research | Technical terms, citations, relevant findings |
+
+These are proposed use cases. Highlights help direct attention; interpreting the
+surrounding text and evaluating the evidence remains part of the reader’s work.
+
+## Try the demo
+
+Open `index.html` directly in a browser. No installation or build step is needed.
+
+1. Choose **Research**, **Contracts**, or **Campaigns** to load an illustrative passage.
+2. Enter your own comma-separated words or phrases.
+3. Select **Apply highlights** to find literal, case-insensitive matches.
+4. Use **Hide highlights** to compare the passage with and without highlighting.
+
+The demo runs locally in the page. It makes no network requests, uses no analytics,
+and does not upload your terms or load the project’s profile, wallet, or contact datasets.
+
+To preview over HTTP, run this command from the directory containing this README:
+
+```sh
+python3 -m http.server 8765
+```
+
+Then visit [the visual page](http://localhost:8765/index.html) or
+[the agent page](http://localhost:8765/agents.html).
+
+## Design and accessibility
+
+The visual page follows the supplied black-and-electric-yellow brand artwork.
+Images, styles, and scripts are embedded in one standalone HTML file. It includes:
+
+- Responsive layouts for small and large screens.
+- Highlight animations and reduced-motion preferences.
+- Semantic sections, keyboard controls, visible focus indicators, and a skip link.
+- Live announcements of the match count.
+- Print styles and readable project information when JavaScript is disabled.
+
+The separate agent page exposes the project summary directly in HTML source,
+without requiring script execution or visual interpretation.
+
+## Project status
+
+This repository presents the brand concept and a working keyword demonstration.
+A released browser extension, installation package, and AI highlighting service
+are not included here. The artwork’s local-processing and optional AI-assistance
+messaging describes the product direction; the demo implements local keyword matching.
+
+## Files and publishing
+
+| File | Purpose |
+| --- | --- |
+| `index.html` | Standalone visual website and interactive demo |
+| `agents.html` | Script-free, style-free project summary for agents and readers |
+| `README.md` | Project introduction and local preview instructions |
+
+Serve the directory containing both HTML files as a static website. Keep them
+beside each other so the links between versions work. No framework, package
+manager, external font, or build pipeline is required.
+
+GitHub Pages requires a separately configured deployment; committing HTML files
+alone does not publish a website. No deployment is configured by these files.
+
+## Source material and verification
+
+The content draws on the project descriptions, supplied brand artwork (read
+visually and with OCR), and target-market research. Use cases are presented
+without treating occupational counts as customer adoption or addressable-market claims.
+
+JavaScript syntax, demo interactions, local links, fragment targets, unique IDs,
+and local HTTP responses were checked. The plain HTML page was checked for the
+absence of scripts, styles, and images. Visual browser and device-size verification
+remains outstanding because a browser was unavailable during authoring.

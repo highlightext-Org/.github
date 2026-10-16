@@ -1,0 +1,8 @@
+
+# Keep local credentials and machine metadata out of Git.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
