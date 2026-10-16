@@ -9,7 +9,7 @@ highlighter—reimagined for digital work.
 ## Explore the project
 
 - [Visual website](index.html): an animated, responsive introduction with an interactive keyword-highlighting demo.
-- [Suggest a word](add-word.html): prepare an email request for a word, phrase, handle, or matching rule. Requests go to hi@highlightext.com for review.
+- [Suggest a word](add-word.html): prepare an email request for a word, phrase, handle, or matching rule. Also request a custom keyword list for insurance, campaign management, legal, financial, or other specialized needs, with requirements and existing keywords. Requests go to hi@highlightext.com for review.
 - [HTML for AI agents](agents.html): a plain semantic HTML summary with no JavaScript, CSS, images, or external dependencies.
 - [Highlighter repository](https://github.com/highlightext-Org/highlighter): the core project’s home.
 
