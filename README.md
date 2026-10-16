@@ -79,6 +79,7 @@ messaging describes the product direction; the demo implements local keyword mat
 | --- | --- |
 | `index.html` | Standalone visual website and interactive demo |
 | `add-word.html` | Word suggestion form that prepares an email draft for review |
+| `payment-complete.html` | Static return page after Coinbase checkout; does not verify payment or activate access |
 | `agents.html` | Script-free, style-free project summary for agents and readers |
 | `README.md` | Project introduction and local preview instructions |
 
@@ -120,6 +121,12 @@ homepage with Google's Rich Results Test. These account actions are separate
 from the repository changes. Keep HTTPS enforced in GitHub Pages settings.
 
 ## Subscription plans
+
+For Coinbase checkout, set the post-payment redirect URL to
+`https://highlightext.com/payment-complete.html` after deploying this page.
+The return page is excluded from search indexing and intentionally omitted from
+the sitemap. It is a static acknowledgement; transactions must be verified
+separately before access is arranged.
 
 The static homepage lists Advanced ($9 USD/month), Pro ($19 USD/month), and
 Publisher (enquiry only). Advanced and Pro link directly to hosted Stripe
