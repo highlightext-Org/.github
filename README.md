@@ -171,3 +171,15 @@ software license does not grant rights in branding, third-party material,
 personal information, or generated datasets. Test suitability, verify results,
 and keep backups. Liability exclusions apply only to the extent permitted by law.
 Paid plans and custom services are separate from Community software rights.
+
+## Research publications
+
+The homepage links to [the research index](research/index.html), which links to
+[HT-RP-001: What matters most to Burbank residents?](research/burbank-resident-priorities.html).
+The article is an exploratory brief with sources, methods, corrections, and visible
+questions and answers. It does not claim external peer review or representative sampling.
+
+Agent discovery: [the .skills agent page](agents.html#research), [llms.txt](llms.txt),
+and [the publication catalog](research/catalog.json). All article content is
+server-readable static HTML; JavaScript is not needed to retrieve answers.
+Read [research maintenance guidance](research/README.md) before adding papers.

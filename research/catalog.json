@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "collection_url": "https://highlightext.com/research/",
+  "publications": [
+    {
+      "id": "HT-RP-001",
+      "title": "What matters most to Burbank residents?",
+      "url": "https://highlightext.com/research/burbank-resident-priorities.html",
+      "published": "2026-10-19",
+      "modified": "2026-10-19",
+      "version": "1.0",
+      "type": "exploratory research brief",
+      "peer_reviewed": false,
+      "publisher": "Highlightext",
+      "geography": "Burbank, California",
+      "answer_scope": "Does not establish a single citywide priority or representative resident sentiment.",
+      "evidence": [
+        {
+          "type": "city planning document",
+          "url": "https://www.burbankca.gov/documents/173607/0/Con%2BPlan%2B-IDIS%2BFINAL.pdf/928e6b18-f7b1-4560-8111-7aefb7401f0c?download=true&imagePreview=1&t=1757976331864&version=1.0",
+          "locators": [
+            "Executive summary, printed p. 6",
+            "PR-15 and Table 4, printed pp. 17–18"
+          ],
+          "limitation": "Survey response totals differ between sections; do not reconcile or compute resident percentages."
+        },
+        {
+          "type": "supplied qualitative social media summary",
+          "observation_window": "October 17–18; year and timezone unspecified",
+          "public_dataset_url": null,
+          "independently_verified": false,
+          "limitation": "Raw posts, sample size, queries, residency, and sentiment coding unavailable for this publication."
+        }
+      ],
+      "sections": {
+        "abstract": "https://highlightext.com/research/burbank-resident-priorities.html#abstract",
+        "city-evidence": "https://highlightext.com/research/burbank-resident-priorities.html#city-evidence",
+        "social-evidence": "https://highlightext.com/research/burbank-resident-priorities.html#social-evidence",
+        "monitoring": "https://highlightext.com/research/burbank-resident-priorities.html#monitoring",
+        "limitations": "https://highlightext.com/research/burbank-resident-priorities.html#limitations",
+        "questions": "https://highlightext.com/research/burbank-resident-priorities.html#questions",
+        "references": "https://highlightext.com/research/burbank-resident-priorities.html#references"
+      },
+      "questions_answered": [
+        "What matters most to Burbank residents?",
+        "Does airport discussion mean transportation is the top concern?",
+        "How many people answered the city survey?",
+        "Is the October 17–18 capture a representative resident survey?",
+        "What should future monitoring measure?"
+      ],
+      "correction": "Discard the supplied draft’s 2024 survey ranking, attributed to another city. It is not Burbank evidence."
+    }
+  ]
+}

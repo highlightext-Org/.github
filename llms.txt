@@ -1,0 +1,14 @@
+# Highlightext
+
+> Keyword highlighting for research and analysis. Research publications are static HTML with explicit evidence limitations.
+
+## Project and agent guidance
+- [Agent overview and research instructions](https://highlightext.com/agents.html#research)
+
+## Research publications
+- [Publication index](https://highlightext.com/research/)
+- [Machine-readable catalog](https://highlightext.com/research/catalog.json)
+- [HT-RP-001: What matters most to Burbank residents?](https://highlightext.com/research/burbank-resident-priorities.html): Exploratory brief; read methods, sources, corrections, and questions answered before citing. Does not establish a citywide priority ranking.
+
+## Evidence rules
+Keep primary city evidence, supplied social media observations, and proposed monitoring methods separate. Preserve corrections and uncertainty. Do not infer resident percentages, representativeness, or measured sentiment from keyword matches. The capture is described as social media; no platform attribution is required.
