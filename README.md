@@ -135,6 +135,14 @@ payment links alongside Stripe. Transactions are verified and access arranged af
 this page does not automatically provision access. Publisher enquiries go to
 hi@highlightext.com. No Stripe API credentials are included in the website.
 
+## One-time targeted social handle research
+
+The homepage includes a keyword and project-brief form for targeted social handle
+research. It prepares an email draft for manual review; the visitor must send it.
+Scope, one-time price, and delivery are agreed before payment. The Stripe product
+is configured separately in `billing/stripe-research-product.json` in the parent
+workspace. A price and hosted checkout link remain pending the owner's price.
+
 ## Legal pages
 
 `terms.html` and `privacy.html` describe website use, subscriptions, custom work,
