@@ -157,3 +157,17 @@ practices, and applicable privacy obligations with counsel. In particular, selli
 public-profile research can trigger privacy, opt-out, and data-broker obligations;
 public availability alone does not remove those obligations. Configure hosted
 checkout disclosures and affirmative agreement to match these pages.
+
+## Community tier — free open-source tools
+
+The Community tier is **free ($0)**: use the open-source tools without a
+subscription or purchase. Company-owned software and associated technical
+documentation are available under the [MIT License](LICENSE), including its
+**AS IS / no-warranty / no-liability** provisions. Community support is best
+effort; maintenance and updates are not guaranteed.
+
+Read [license scope and software disclaimer](DISCLAIMER.md) before use. The
+software license does not grant rights in branding, third-party material,
+personal information, or generated datasets. Test suitability, verify results,
+and keep backups. Liability exclusions apply only to the extent permitted by law.
+Paid plans and custom services are separate from Community software rights.
