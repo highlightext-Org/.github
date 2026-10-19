@@ -134,3 +134,18 @@ subscription checkout. Advanced and Pro also offer crypto payment through hosted
 payment links alongside Stripe. Transactions are verified and access arranged after payment;
 this page does not automatically provision access. Publisher enquiries go to
 hi@highlightext.com. No Stripe API credentials are included in the website.
+
+## Legal pages
+
+`terms.html` and `privacy.html` describe website use, subscriptions, custom work,
+public-profile research, and data handling. They are linked from the homepage,
+pricing section, request page, and sitemap. Update these notices before changing
+data practices or commercial terms. Checkout or a written order must expressly
+incorporate the Terms; a footer link alone is not a record of customer consent.
+
+The notices use the Highlightext brand and existing support email. Confirm the
+operating legal entity, business address, jurisdiction, actual provider/retention
+practices, and applicable privacy obligations with counsel. In particular, selling
+public-profile research can trigger privacy, opt-out, and data-broker obligations;
+public availability alone does not remove those obligations. Configure hosted
+checkout disclosures and affirmative agreement to match these pages.
