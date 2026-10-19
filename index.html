@@ -115,13 +115,17 @@ function render(){
   finally{if(url)URL.revokeObjectURL(url)}
 }
 document.querySelector('#keyword-form').addEventListener('submit',event=>{event.preventDefault();enabled=true;render()});
-document.querySelectorAll('[data-preset]').forEach(button=>button.addEventListener('click',()=>{
-  current=sets[button.dataset.preset];input.value=current.terms;mode.value=current.mode||'keywords';enabled=true;updateMode();
+function selectPreset(preset){
+  current=sets[preset];input.value=current.terms;mode.value=current.mode||'keywords';enabled=true;updateMode();
   document.querySelector('.doc-head span').textContent='EXAMPLE / '+current.label;document.querySelector('#doc-title').textContent=current.title||'A clearer view of the details.';
-  document.querySelectorAll('[data-preset]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));render();
-}));
+  document.querySelectorAll('[data-preset]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.preset===preset)));render();
+}
+document.querySelectorAll('[data-preset]').forEach(button=>button.addEventListener('click',()=>selectPreset(button.dataset.preset)));
 input.addEventListener('input',()=>{stopMatching();clearPreset();error.hidden=true;input.removeAttribute('aria-invalid');status.textContent='Apply highlights to match your changes'});
-mode.addEventListener('change',()=>{clearPreset();updateMode();render()});
+mode.addEventListener('change',()=>{
+  if(mode.value==='regex'){selectPreset('social');return}
+  clearPreset();updateMode();render();
+});
 toggle.addEventListener('click',()=>{enabled=!enabled;render()});
 updateMode();render();
 })();
