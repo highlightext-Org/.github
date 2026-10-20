@@ -11,7 +11,7 @@ highlighter—reimagined for digital work.
 - [Visual website](index.html): an animated, responsive introduction with an interactive keyword-highlighting demo.
 - [Features and roadmap](features.html): current extension tools and planned research features, linked from homepage content and footer.
 - [Suggest a word](add-word.html): prepare an email request for a word, phrase, handle, or matching rule. Also request a custom keyword list for insurance, campaign management, legal, financial, or other specialized needs, with requirements and existing keywords. Requests go to hi@highlightext.com for review.
-- [HTML for AI agents](agents.html): a plain semantic HTML summary with no JavaScript, CSS, images, or external dependencies.
+- [HTML for AI agents](agents.html): a plain semantic HTML summary with no visual styling or images. It includes the site-wide Google Analytics tag.
 - [Highlighter repository](https://github.com/highlightext-Org/highlighter): the core project’s home.
 
 These links open source files in GitHub’s repository viewer. Download the HTML
@@ -41,8 +41,7 @@ Open `index.html` directly in a browser. No installation or build step is needed
 3. Select **Apply highlights** to find literal, case-insensitive matches.
 4. Use **Hide highlights** to compare the passage with and without highlighting.
 
-The demo runs locally in the page. It makes no network requests, uses no analytics,
-and does not upload your terms or load the project’s profile, wallet, or contact datasets.
+The demo processes entered terms locally and does not upload them or load the project’s profile, wallet, or contact datasets. The page loads Google Analytics for site usage measurement.
 
 To preview over HTTP, run this command from the directory containing this README:
 
@@ -65,7 +64,7 @@ Images, styles, and scripts are embedded in one standalone HTML file. It include
 - Print styles and readable project information when JavaScript is disabled.
 
 The separate agent page exposes the project summary directly in HTML source,
-without requiring script execution or visual interpretation.
+without requiring script execution or visual interpretation of the content. It also loads the site-wide Google Analytics tag.
 
 ## Project status
 
@@ -82,7 +81,7 @@ messaging describes the product direction; the demo implements local keyword mat
 | `features.html` | Product features, roadmap, and platform compatibility |
 | `add-word.html` | Word suggestion form that prepares an email draft for review |
 | `payment-complete.html` | Static return page after Coinbase checkout; does not verify payment or activate access |
-| `agents.html` | Script-free, style-free project summary for agents and readers |
+| `agents.html` | Plain project summary for agents and readers, with the site-wide Google Analytics tag |
 | `README.md` | Project introduction and local preview instructions |
 
 Serve the directory containing both HTML files as a static website. Keep them
@@ -100,7 +99,7 @@ without treating occupational counts as customer adoption or addressable-market 
 
 JavaScript syntax, demo interactions, local links, fragment targets, unique IDs,
 and local HTTP responses were checked. The plain HTML page was checked for the
-absence of scripts, styles, and images. Visual browser and device-size verification
+absence of visual styles and images. Visual browser and device-size verification
 remains outstanding because a browser was unavailable during authoring.
 
 ## Search and sharing
@@ -109,7 +108,7 @@ The production domain is `https://highlightext.com` (configured in `CNAME`).
 All three public HTML pages have unique titles and descriptions, canonical URLs,
 Open Graph and Twitter card metadata, and favicon links. The homepage includes
 Organization, WebSite, and WebPage JSON-LD; the request page includes WebPage
-JSON-LD. The agent page remains script-free.
+JSON-LD. The agent page includes the site-wide Google Analytics tag.
 
 `robots.txt` permits crawling and points to `sitemap.xml`, which lists canonical
 public pages. When adding or removing pages, update the sitemap and page metadata.
